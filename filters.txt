@@ -1,3 +1,5 @@
+! Title: Personal filters
+
 outlook.live.com##.GssDD
 outlook.live.com##button[aria-label="Buy Microsoft 365"]
 
