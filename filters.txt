@@ -1,0 +1,18 @@
+outlook.live.com##.GssDD
+outlook.live.com##button[aria-label="Buy Microsoft 365"]
+
+mail.yahoo.com##div#ybar-inserted-content
+
+mail.com##div.dap-container__sky
+mail.com##div.nav-header__promotion
+
+finance.yahoo.com##div[data-testid="ad-container"]
+finance.yahoo.com##div.subscription-wrapper
+finance.yahoo.com##div.sidebar
+
+autotrader.com##div#fixedAdContainer
+autotrader.com##div[data-grid-card="spotlight"]
+autotrader.com##div[data-grid-card="fluid-ad"]
+autotrader.com##div[data-grid-card="boost"]
+autotrader.com##div:has(> div[data-cmp="myWalletGridPlacement"])
+autotrader.com##div.grid-full-width:has(> div[data-scroll-anchor="spotlight-carousel-wrapper"])
