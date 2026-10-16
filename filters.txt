@@ -1,20 +1,27 @@
 ! Title: Personal filters
 
 outlook.live.com##.GssDD
-outlook.live.com##button[aria-label="Buy Microsoft 365"]
+outlook.live.com###owaBuyMicrosoft365Btn_container
 
 mail.yahoo.com##div#ybar-inserted-content
+mail.yahoo.com##section[data-test-id="novation-right-rail"]
+mail.yahoo.com##li:has(> div[data-test-id="message-list-item"]):style(transform: translate(0, -84px))
 
 mail.com##div.dap-container__sky
 mail.com##div.nav-header__promotion
 
+finance.yahoo.com##li:has(> div[data-testid="ad-container"])
 finance.yahoo.com##div[data-testid="ad-container"]
-finance.yahoo.com##div.subscription-wrapper
+finance.yahoo.com##div:has(> div.subscription-wrapper)
 finance.yahoo.com##div.sidebar
 
 autotrader.com##div#fixedAdContainer
 autotrader.com##div[data-grid-card="spotlight"]
 autotrader.com##div[data-grid-card="fluid-ad"]
 autotrader.com##div[data-grid-card="boost"]
+autotrader.com##div.shopping-assistant
+autotrader.com##div[data-cmp="srp-now-featuring-banner"]
+autotrader.com##div#listings-grid > div:not([id], [data-cmp='cntnr-results-sort'])
 autotrader.com##div:has(> div[data-cmp="myWalletGridPlacement"])
 autotrader.com##div.grid-full-width:has(> div[data-scroll-anchor="spotlight-carousel-wrapper"])
+autotrader.com##div.container:has(div[data-qaid="cntr-crawl-path-footer"])
