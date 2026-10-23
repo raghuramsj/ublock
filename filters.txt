@@ -1,4 +1,4 @@
-! Title: Personal filters
+! Title: Personal Layout Filters
 
 outlook.live.com##.GssDD
 outlook.live.com###owaBuyMicrosoft365Btn_container
@@ -25,3 +25,6 @@ autotrader.com##div#listings-grid > div:not([id], [data-cmp='cntnr-results-sort'
 autotrader.com##div:has(> div[data-cmp="myWalletGridPlacement"])
 autotrader.com##div.grid-full-width:has(> div[data-scroll-anchor="spotlight-carousel-wrapper"])
 autotrader.com##div.container:has(div[data-qaid="cntr-crawl-path-footer"])
+
+sfchronicle.com##div.ad-module--ad--16cf1
+sfchronicle.com##[data-layout=Layout1Column]:has([data-block-type=ad])
