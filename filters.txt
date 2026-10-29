@@ -14,6 +14,8 @@ finance.yahoo.com##li:has(> div[data-testid="ad-container"])
 finance.yahoo.com##div[data-testid="ad-container"]
 finance.yahoo.com##div:has(> div.subscription-wrapper)
 finance.yahoo.com##div.sidebar
+finance.yahoo.com##div#alphaspace-fab
+finance.yahoo.com##div.tradeNow
 
 autotrader.com##div#fixedAdContainer
 autotrader.com##div[data-grid-card="spotlight"]
