@@ -30,3 +30,5 @@ autotrader.com##div.container:has(div[data-qaid="cntr-crawl-path-footer"])
 
 sfchronicle.com##div.ad-module--ad--16cf1
 sfchronicle.com##[data-layout="Layout1Column"]:has([data-block-type="ad"])
+
+politico.com##div.border-b:has(div[aria-label='Advertisement'])
