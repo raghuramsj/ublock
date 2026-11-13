@@ -34,3 +34,7 @@ sfchronicle.com##[data-layout="Layout1Column"]:has([data-block-type="ad"])
 politico.com##div.border-b:has(div[aria-label='Advertisement'])
 
 ebay.com##div.vod-ads-placement
+
+wallhop.io##body>div.bar
+wallhop.io##body>p.foot
+wallhop.io##body>article:style(margin: 32px auto !important)
